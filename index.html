@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RahulYangSedangBersinar</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f5f5f5;
+}
+
+
+/* HEADER */
+.header{
+    background:#0f1010;
+    height:120px;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:40px;
+    font-weight:bold;
+}
+
+
+
+/* MENU */
+.menu{
+    background:white;
+    padding:20px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+}
+
+
+.menu a{
+    margin:25px;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+
+
+
+
+/* AREA BERITA */
+
+.container{
+
+    display:flex;
+    gap:25px;
+    padding:30px;
+
+}
+
+
+
+/* KIRI */
+
+.berita{
+
+    width:65%;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+
+}
+
+
+.berita h1{
+
+    font-size:35px;
+
+}
+
+
+.berita h2{
+
+    font-size:25px;
+
+}
+
+
+.berita p{
+
+    font-size:18px;
+    line-height:1.7;
+
+}
+
+
+
+
+
+/* GAMBAR */
+
+.berita img{
+
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    border-radius:10px;
+
+}
+
+
+
+
+
+
+/* LIVE */
+
+.streaming{
+
+    width:35%;
+    background:white;
+    border:2px solid black;
+    padding:20px;
+    height:400px;
+
+}
+
+
+.streaming iframe{
+
+    width:100%;
+    height:300px;
+
+}
+
+
+
+
+
+
+/* KONTEN BAWAH */
+
+.konten{
+
+    margin:30px;
+    background:white;
+    border:2px solid black;
+    padding:20px;
+    text-align:center;
+
+}
+
+
+.konten img{
+
+    width:80%;
+    height:250px;
+    object-fit:cover;
+
+}
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+
+<!-- JUDUL -->
+
+<div class="header">
+
+RahulYangSedangBersinar
+
+</div>
+
+
+
+
+<!-- MENU -->
+
+<div class="menu">
+
+<a href="index.html">News</a>
+<a href="olahraga.html">Olahraga</a>
+<a href="live.html">Live Streaming</a>
+</div>
+
+
+
+
+
+<div class="container">
+
+
+
+<!-- BERITA KIRI -->
+
+<div class="berita">
+
+
+<h1>Berita Terkini</h1>
+
+
+
+<img src="1.jpeg">
+
+
+
+<h2>
+Panen Melon Di Desa Bungin
+</h2>
+
+
+
+<p>
+Kabar menggembirakan datang dari para petani melon di Desa Bungin. Berkat penerapan teknik pertanian modern/greenhouse, musim panen kali ini mencatatkan hasil melimpah dengan kualitas buah unggulan
+</p>
+
+
+<p>
+Panen periode ini mencatatkan peningkatan signifikan dibanding musim sebelumnya. Dari lahan seluas 0,5 Hektar, para petani berhasil memanen hingga 4 ton melon jenis Golden.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+<!-- LIVE KANAN -->
+
+<div class="streaming">
+
+
+<h2>Live Streaming</h2>
+
+
+<iframe 
+src="https://www.youtube.com/embed/VIDEO_ID">
+</iframe>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="konten">
+
+
+<h2>Galeri Berita</h2>
+
+
+<img src="3.jpeg">
+
+
+
+</div>
+
+<div class="saran">
+
+    <h2>Kotak Saran</h2>
+    
+    <p>
+    Berikan kritik dan saran untuk BeritaKu
+    </p>
+    
+    
+    <form>
+    
+    <label>Nama</label><br>
+    <input type="text" placeholder="Masukkan nama">
+    
+    
+    <br><br>
+    
+    
+    <label>Email</label><br>
+    <input type="email" placeholder="Masukkan email">
+    
+    
+    <br><br>
+    
+    
+    <label>Saran</label><br>
+    
+    <textarea 
+    placeholder="Tulis saran anda..."
+    rows="5">
+    </textarea>
+    
+    
+    <br><br>
+    
+    
+    <button>
+    Kirim Saran
+    </button>
+    
+    
+    </form>
+    
+    </div>
+    
+    <style>
+
+        .saran{
+        
+        background:white;
+        width:70%;
+        margin:30px auto;
+        padding:25px;
+        border-radius:15px;
+        box-shadow:0 5px 15px #aaa;
+        
+        }
+        
+        
+        .saran h2{
+        
+        text-align:center;
+        color:#333;
+        
+        }
+        
+        
+        input, textarea{
+        
+        width:100%;
+        padding:12px;
+        border:1px solid #ccc;
+        border-radius:8px;
+        
+        }
+        
+        
+        button{
+        
+        background:#007bff;
+        color:white;
+        border:none;
+        padding:12px 25px;
+        border-radius:20px;
+        cursor:pointer;
+        
+        }
+        
+        
+        button:hover{
+        
+        background:#0056b3;
+        
+        }
+        
+        </style>
+
+
+
+</body>
+
+</html>
